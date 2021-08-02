@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  /* border: 4px solid red; */
   background-image: url("https://raw.githubusercontent.com/spencerf2/coding_temple_portfolio_website/master/Images/pexels-philippe-donn-1169754.jpg");
   background-size: cover;
 }
@@ -81,36 +80,21 @@ main {
   grid-auto-rows: minmax(min-content, max-content);
   margin-top: 6%;
   padding: 3%;
-  /* border: 5px solid green; */
   color: snow;
 }
 
-/* Working with the section above this one.  Main 
-   obstacle right now is that the content isn't
-   just fitting to the row, the rows are expanding
-   unnecessarily large.  I'm thinking there must
-   be some content taking up too much space.
-   The unordered list within the Interests section
-   has the same issue going as the overall sections
-   of the page.  Fix it in one and I'll probably know
-   how to fix it in both... */
-
-/* xyz */
 #background-sect {
   grid-area: background-sect;
-  /* border: 1px solid orange; */
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 #background-sect h2 {
   text-align: center;
   font-size: 1.75rem;
-  /* border: 1px solid red; */
 }
 
 #background-sect h4 {
   text-align: center;
-  /* border: 1px solid red; */
   font-size: 1.1rem;
 }
 
@@ -122,7 +106,6 @@ main {
   justify-items: center;
   align-content: center;
   align-items: center;
-  /* border: 3px solid pink; */
   margin-top: 1%;
   height: 89%;
   width: auto;
@@ -133,7 +116,6 @@ main {
 #background-sect .background-figures .serviced-in-love {
   width: auto;
   height: 100%;
-  /* border: 1px solid greenyellow; */
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -143,7 +125,6 @@ main {
 #background-sect .background-figures .serviced-in-love img {
   width: 100%;
   height: auto;
-  /* border: 1px solid yellow; */
 }
 
 /* Background Section Bookkeeping */
@@ -151,7 +132,6 @@ main {
 #background-sect .background-figures .bookkeeping {
   width: auto;
   height: 100%;
-  /* border: 1px solid greenyellow; */
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -161,7 +141,6 @@ main {
 #background-sect .background-figures .bookkeeping img {
   width: 100%;
   height: auto;
-  /* border: 1px solid yellow; */
 }
 
 /* Background Section Cannabis Consulting Firm */
@@ -169,7 +148,6 @@ main {
 #background-sect .background-figures .cannabis-consulting-firm {
   width: auto;
   height: 100%;
-  /* border: 1px solid greenyellow; */
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -179,7 +157,6 @@ main {
 #background-sect .background-figures .cannabis-consulting-firm img {
   width: 100%;
   height: auto;
-  /* border: 1px solid yellow; */
 }
 
 /* Background Section Managing Dispensary */
@@ -187,7 +164,6 @@ main {
 #background-sect .background-figures .managing-dispensary {
   width: auto;
   height: 100%;
-  /* border: 1px solid greenyellow; */
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -197,7 +173,6 @@ main {
 #background-sect .background-figures .managing-dispensary img {
   width: 100%;
   height: auto;
-  /* border: 1px solid yellow; */
 }
 
 /* Background Section Cashiering Dispensary */
@@ -205,7 +180,6 @@ main {
 #background-sect .background-figures .cashiering-dispensary {
   width: auto;
   height: 100%;
-  /* border: 1px solid greenyellow; */
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -215,7 +189,6 @@ main {
 #background-sect .background-figures .cashiering-dispensary img {
   width: 100%;
   height: auto;
-  /* border: 1px solid yellow; */
 }
 
 /* Background Section Econ Degree */
@@ -223,7 +196,6 @@ main {
 #background-sect .background-figures .econ-degree {
   width: auto;
   height: 100%;
-  /* border: 1px solid greenyellow; */
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -233,7 +205,6 @@ main {
 #background-sect .background-figures .econ-degree img {
   width: 100%;
   height: auto;
-  /* border: 1px solid yellow; */
 }
 
 /* Background Section Math Degree */
@@ -241,7 +212,6 @@ main {
 #background-sect .background-figures .math-degree {
   width: auto;
   height: 100%;
-  /* border: 1px solid greenyellow; */
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -251,7 +221,6 @@ main {
 #background-sect .background-figures .math-degree img {
   width: 100%;
   height: auto;
-  /* border: 1px solid yellow; */
 }
 
 /* Background Section Executive Assistant */
@@ -259,7 +228,6 @@ main {
 #background-sect .background-figures .executive-assistant {
   width: auto;
   height: 100%;
-  /* border: 1px solid greenyellow; */
   text-align: center;
   display: flex;
   flex-wrap: wrap;
@@ -269,24 +237,20 @@ main {
 #background-sect .background-figures .executive-assistant img {
   width: 100%;
   height: auto;
-  /* border: 1px solid yellow; */
 }
 
 #interests-sect {
   grid-area: interests-sect;
-  /* border: 1px solid red; */
 }
 
 #interests-sect h2 {
   text-align: center;
   font-size: 1.75rem;
-  /* border: 1px solid red; */
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 #interests-sect h4 {
   text-align: center;
-  /* border: 1px solid red; */
   font-size: 1.1rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -302,12 +266,10 @@ main {
   justify-items: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.7);
-  /* border: 1px solid red; */
   padding: 0px;
 }
 
 #interests-sect ul li {
-  /* border: 1px solid red; */
   list-style: none;
   text-align: center;
 }
@@ -335,19 +297,16 @@ main {
 
 #past-projects-sect {
   grid-area: past-projects-sect;
-  /* border: 1px solid red; */
 }
 
 #past-projects-sect h2 {
   text-align: center;
   font-size: 1.75rem;
-  /* border: 1px solid red; */
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 #past-projects-sect h4 {
   text-align: center;
-  /* border: 1px solid red; */
   font-size: 1.1rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -359,19 +318,16 @@ main {
 
 #goals-sect {
   grid-area: goals-sect;
-  /* border: 1px solid red; */
 }
 
 #goals-sect h2 {
   text-align: center;
   font-size: 1.75rem;
-  /* border: 1px solid red; */
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 #goals-sect h4 {
   text-align: center;
-  /* border: 1px solid red; */
   font-size: 1.1rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -379,7 +335,6 @@ main {
 #goals-sect ol {
   padding: 1.6rem 1.6rem 0rem 1.6rem;
   background-color: rgba(0, 0, 0, 0.7);
-  /* line-height: 2rem; */
 }
 
 #goals-sect ol li {
